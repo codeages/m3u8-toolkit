@@ -1,0 +1,27 @@
+
+{
+    "name": "codeages/m3u8-toolkit",
+    "description": "PHP M3U8 file parser / dumper",
+    "type": "library",
+    "authors": [{
+        "name": "Codeages Team",
+        "email": "team@codeages.com"
+    }],
+    "keywords": [
+        "m3u8", "parser"
+    ],
+    "license": [
+        "MIT"
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codeages\\M3U8Toolkit\\" : "src",
+            "Codeages\\M3U8Toolkit\\Tests\\" : "tests"
+
+        }
+    }
+}
+
